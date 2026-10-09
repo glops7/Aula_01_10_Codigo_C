@@ -1,22 +1,21 @@
+
 #include <stdio.h>
 
-int main () {
+int main() {
 
-int studentID = 15;
-int studentAge = 23;
-float studentFee = 75.25;
-char studentGrade = 'B';
+    int studentID = 15;
+    int studentAge = 23;
+    float studentFee = 75.25;
+    char studentGrade = 'B';
 
-// Print variables
+    // Print variables
+    printf("Alunos da Etec\n");
+    printf("------------------\n");
 
-printf("Alunos da Etec\n")
-printf("------------------\n")
+    printf("Student ID: %d\n", studentID);
+    printf("Student age: %d\n", studentAge);
+    printf("Student fee: %.2f\n", studentFee);
+    printf("Student grade: %c\n", studentGrade);
 
-  
-printf("Student ID: %d\n", studentID);
-printf("Student age: %d\n", studentAge);
-printf("Student fee: %f\n", studentFee);
-printf("Student grade: %c", studentGrade);
-
-return 0;
+    return 0;
 }

@@ -1,23 +1,16 @@
-# include <stdio.h>
 
-///classe principal
-int main(){
+#include <stdio.h>
 
-  ///instruções no final;
-  int x;
-  int y = 20;
+/// Classe principal
+int main() {
+    int x;
+    int y = 20;
 
-  x= 15;
+    x = 15;
 
-  int soma = x + y;
+    int soma = x + y;
 
-/// e comercial
-/// 
+    printf("Valor total: %d\n", soma);
 
-    
-  printf("Valor total", soma);
-
-
-return
-    
+    return 0;
 }
